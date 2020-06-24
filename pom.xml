@@ -1,0 +1,54 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.dmmaycon.restjar</groupId>
+  <artifactId>dmmaycon-restjar</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>dmmaycon-restjar</name>
+  
+  
+  <properties>
+  		<maven.compiler.source>1.8</maven.compiler.source>
+  		<maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
+  
+  <dependencies>
+  		<!-- DEPENDENCIES JETTY AND JERSEY -->
+	    <dependency>
+	        <groupId>org.eclipse.jetty</groupId>
+	        <artifactId>jetty-server</artifactId>
+	        <version>9.2.3.v20140905</version>
+	    </dependency>
+	    <dependency>
+	        <groupId>org.eclipse.jetty</groupId>
+	        <artifactId>jetty-servlet</artifactId>
+	        <version>9.2.3.v20140905</version>
+	    </dependency>
+	    <dependency>
+	        <groupId>org.glassfish.jersey.core</groupId>
+	        <artifactId>jersey-server</artifactId>
+	        <version>2.7</version>
+	    </dependency>
+	    <dependency>
+	        <groupId>org.glassfish.jersey.containers</groupId>
+	        <artifactId>jersey-container-servlet-core</artifactId>
+	        <version>2.7</version>
+	    </dependency>
+	    <dependency>
+	        <groupId>org.glassfish.jersey.containers</groupId>
+	        <artifactId>jersey-container-jetty-http</artifactId>
+	        <version>2.7</version>
+	    </dependency>
+	    <dependency>
+	        <groupId>org.glassfish.jersey.media</groupId>
+	        <artifactId>jersey-media-moxy</artifactId>
+	        <version>2.7</version>
+	    </dependency>
+	
+	<!-- OTHER DEPENDENCIES -->
+	
+	
+	
+	</dependencies>
+  
+  	
+</project>
